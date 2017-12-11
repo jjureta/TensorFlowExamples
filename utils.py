@@ -7,3 +7,6 @@ def display_digit(data_set, num, prediction = -1):
     plt.title('Example: %d  Label: %d Prediction: %d' % (num, label, prediction))
     plt.imshow(image, cmap=plt.get_cmap('gray_r'))
     plt.show()
+
+def unfold_labels(labels):
+    return labels.argmax(axis=1)
