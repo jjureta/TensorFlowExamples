@@ -9,3 +9,9 @@ E:\tmp\1/events.out.tfevents.1512964528.JosipJuretas-MacBook-Pro-1468.local
 .ipynb_checkpoints/TensorFlowBasicEnch-checkpoint.ipynb
 .ipynb_checkpoints/TensorFlowBasicEnch-checkpoint.ipynb
 .ipynb_checkpoints/TensorFlowBasic-checkpoint.ipynb
+
+__pycache__/
+
+TensorFlowBoard/tensor_flow_basic/
+
+TensorFlowBoard/tensor_flow_ench/
