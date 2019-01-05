@@ -15,3 +15,7 @@ __pycache__/
 TensorFlowBoard/tensor_flow_basic/
 
 TensorFlowBoard/tensor_flow_ench/
+
+\.ipynb_checkpoints/
+
+cylinder_volume_trained/
