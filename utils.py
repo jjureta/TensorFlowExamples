@@ -2,7 +2,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 def display_digit(index, image, label, prediction):
-    image = image.reshape([28,28])
     title = ['Sample:%d' % (index),
              'Label: %d' % (label),
              'Prediction: %d' % (prediction)]
@@ -12,8 +11,6 @@ def display_digit(index, image, label, prediction):
 
 # display an image from the given set
 def display_errors(images, labels, predictions, grid = -1):
-    labels = labels.argmax(axis=1)
-    
     errors = np.where(predictions != labels)[0]
     
     number_of_errors = errors.shape[0]
