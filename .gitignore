@@ -21,3 +21,5 @@ TensorFlowBoard/tensor_flow_ench/
 cylinder_volume_trained/
 .ipynb_checkpoints/TensorFlowBasic-checkpoint.ipynb
 .ipynb_checkpoints/TensorFlowBasic-checkpoint.ipynb
+.ipynb_checkpoints/ConvolutionalNetwork-checkpoint.ipynb
+*.local
