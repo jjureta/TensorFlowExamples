@@ -28,3 +28,4 @@ cylinder_volume_trained/
 .ipynb_checkpoints/TensorFlowBasicEnch-checkpoint.ipynb
 
 pred_basic.npy
+logs/
